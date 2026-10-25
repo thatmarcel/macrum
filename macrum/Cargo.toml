@@ -1,0 +1,24 @@
+[package]
+name = "macrum"
+description = "Utilities, mainly route-path macros, for axum"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[dependencies.macrum-extension-traits]
+path = "../macrum-extension-traits"
+
+[dependencies.macrum-proc-macros]
+path = "../macrum-proc-macros"
+
+[dependencies.axum]
+version = "0.8.9"
+
+[dependencies.http]
+version = "1.5.0"
+
+[dependencies.anyhow]
+version = "1.0.104"
+
+[dependencies.serde]
+version = "1.0.229"

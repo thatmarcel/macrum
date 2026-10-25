@@ -1,0 +1,18 @@
+[package]
+name = "macrum-proc-macros"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[lib]
+proc-macro = true
+
+[dependencies.proc-macro2]
+version = "1.0.107"
+
+[dependencies.syn]
+version = "3.0.3"
+features = ["parsing", "full"]
+
+[dependencies.quote]
+version = "1.0.47"

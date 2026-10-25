@@ -1,0 +1,11 @@
+[package]
+name = "macrum-extension-traits"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[dependencies.axum]
+workspace = true
+
+[dependencies.tokio]
+version = "1.53.1"

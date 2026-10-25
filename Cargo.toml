@@ -1,0 +1,16 @@
+[workspace]
+resolver = "3"
+members = [
+    "macrum-extension-traits",
+    "macrum-proc-macros",
+    "macrum"
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[workspace.dependencies.axum]
+version = "0.8.9"
+features = ["http2", "macros"]
